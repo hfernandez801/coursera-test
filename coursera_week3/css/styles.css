@@ -76,5 +76,13 @@ body {
 }
 
 
+.panel-footer {
+  background-color: #153F51;
+  font-size: .7em;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-top: 0; 
+}
+
 
 
