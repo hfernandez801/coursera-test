@@ -1,0 +1,80 @@
+body {
+  font-size: 16px;
+  color: #000;
+  background-color: #EEDECE;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+/*1. Generales*/
+#header-nav {
+  background-color: #153F51;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+/*1.2 Restaurant name */
+.navbar-brand h1 { 
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: -10px;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+/*2. Menu desplegable*/
+#nav-list {
+  margin-top: 10px;
+}
+
+#nav-list a {
+  text-align: center;
+}
+
+#nav-list a:hover {
+  background: #206477;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #206477;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+/**Estilos de cada platillo*/
+#principal-title{
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+
+.menu-item-group {
+  margin-bottom: 10px;
+}
+
+.menu-item-description{
+  background-color: #937A63;
+}
+
+.menu-item-title{
+  text-align: center;
+  padding: 10px;
+}
+
+.menu-item-details{
+  padding: 0px 25px 25px 25px;
+}
+
+
+
+
